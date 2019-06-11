@@ -52,6 +52,7 @@ header{
   border-radius: 5px;
   margin: 0 auto;
   display: block;
+  box-shadow: 3px 4px 14px -2px rgba(153,153,153,1);  
 }
 
 #img-caption{
@@ -112,4 +113,41 @@ cite{
 #footer-msg a{
   letter-spacing: 1px;
   font-weight: 700;
+  color: dodgerblue;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+@media (max-width : 400px) {
+  #title{
+    font-size: 22px;
+  }
+  #welcome-text{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  #img-caption{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  #headline{
+    font-size: 16px;
+  }
+  li{
+    font-size: 12px;
+  }
+  blockquote{
+    font-size: 14px;
+    width: 75%;
+    line-height: 20px;
+  }
+  cite{
+    font-size: 10px;
+  }
+  #footer-msg{
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
